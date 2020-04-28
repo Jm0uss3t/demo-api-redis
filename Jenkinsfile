@@ -4,7 +4,7 @@ node {
   }
 
   stage('Build') {
-    sh 'docker image build -t Jm0uss3t/demo-api:latest .'
+    sh 'docker image build -t jm0uss3t/demo-api:latest .'
   }
 
   stage('Push') {
